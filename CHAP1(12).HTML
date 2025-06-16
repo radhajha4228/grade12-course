@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Database Concepts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    h1 {
+      border-bottom: 2px solid #333;
+    }
+    section {
+      margin-bottom: 30px;
+      background: #fff;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+   <div class="container">
+        <div class="navbar">
+      	<h1> menu for study material</h1>
+    		<a HREF="#MENU" >-</a>    	
+    	 <nav>
+    		 <div class="chapters">
+                  <ul>
+                    <LI><a href="chap1.html">chapter1</a></li>
+                    <li><a href="chap2.html">chapter2</a></li>
+                    <li><a href="chap3.html">chapter3</a></li>
+                    <LI><a href="chap4 (1).html">chapter4</a></li>
+                    <LI><a href="chap5.html">chapter5 </a></li>
+                    <LI><a href="chap6.html">chapter6</a></li>
+                    <LI><a href="chap7.html">chapter7</a></li>
+                    <LI><a href="chap8.html">chapter8</a></li>
+                    <LI><a href="qANDa.html">qANDa</a></li>
+               <P> HERE ARE THE FILES CLICK TO ENTER </P> </ul>
+    		   </DIV>
+              </nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+        </div>
+
+<h1>Database Concepts and SQL</h1>
+<img src="C:\Users\Students\Pictures\Screenshots\dbms.png">DBMS IAMGE TABLE</img>
+<section>
+  <h2>Data</h2>
+  <p>Data refers to raw, unorganized facts that need to be processed to become meaningful. Example: numbers, names, or dates.</p>
+</section>
+
+<section>
+  <h2>Information</h2>
+  <p>Information is processed data that is meaningful and useful for decision-making.</p>
+</section>
+
+<section>
+  <h2>Features of Information</h2>
+  <ul>
+    <li>Accuracy</li>
+    <li>Relevance</li>
+    <li>Timeliness</li>
+    <li>Completeness</li>
+    <li>Consistency</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Database and Its Purpose</h2>
+  <p>A database is a structured collection of data. Its main purpose is efficient data storage, retrieval, and management.</p>
+</section>
+
+<section>
+  <h2>Database Terminologies</h2>
+  <ul>
+    <li><strong>Table:</strong> Collection of data in rows and columns.</li>
+    <li><strong>Field:</strong> A column in a table.</li>
+    <li><strong>Record:</strong> A row in a table.</li>
+    <li><strong>Tuple:</strong> Another term for record.</li>
+    <li><strong>Object:</strong> Data + operations in object-oriented databases.</li>
+    <li><strong>Keys:</strong> Unique identifiers (Primary, Foreign, Candidate, etc.).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Data Dictionary</h2>
+  <p>A data dictionary stores metadata about the structure of the database (tables, fields, data types, etc.).</p>
+</section>
+
+<section>
+  <h2>Database Management System (DBMS)</h2>
+  <h3>Introduction</h3>
+  <p>A DBMS is software for creating and managing databases.</p>
+
+  <h3>Objectives</h3>
+  <ul>
+    <li>Efficient data management</li>
+    <li>Data integrity</li>
+    <li>Security and multi-user access</li>
+  </ul>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li>Reduced redundancy</li>
+    <li>Improved data consistency</li>
+    <li>Easy data sharing</li>
+  </ul>
+
+  <h3>Disadvantages</h3>
+  <ul>
+    <li>High cost</li>
+    <li>Complex to manage</li>
+    <li>Performance issues for large data sets</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Types of Database Models</h2>
+  <ul>
+    <li><strong>Hierarchical:</strong> Tree-structured model.</li>
+    <li><strong>Network:</strong> Many-to-many relationships.</li>
+    <li><strong>Relational:</strong> Tables with rows and columns.</li>
+    <li><strong>Entity-Relationship:</strong> Conceptual representation of data.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Integrity Constraints</h2>
+  <ul>
+    <li><strong>Domain:</strong> Valid values for a field.</li>
+    <li><strong>Entity:</strong> Uniqueness of rows (Primary key).</li>
+    <li><strong>Referential:</strong> Foreign key references a valid row.</li>
+    <li><strong>Keys:</strong> Primary, Foreign, Candidate, Composite keys.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Normalization</h2>
+  <h3>Introduction</h3>
+  <p>Normalization organizes data to reduce redundancy and improve integrity.</p>
+
+  <h3>Normal Forms</h3>
+  <ul>
+    <li><strong>1NF:</strong> Atomic values only, no repeating groups.</li>
+    <li><strong>2NF:</strong> Remove partial dependencies.</li>
+    <li><strong>3NF:</strong> Remove transitive dependencies.</li>
+  </ul>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li>Removes redundancy</li>
+    <li>Improves data integrity</li>
+  </ul>
+
+  <h3>Disadvantages</h3>
+  <ul>
+    <li>More complex queries</li>
+    <li>Slower performance with joins</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Centralized vs. Distributed Database</h2>
+  <h3>Introduction</h3>
+  <p>Centralized stores all data at one site, distributed spreads data across locations.</p>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li><strong>Centralized:</strong> Easier to manage, consistent data.</li>
+    <li><strong>Distributed:</strong> Faster access, fault-tolerant.</li>
+  </ul>
+
+  <h3>Disadvantages</h3>
+  <ul>
+    <li><strong>Centralized:</strong> Single point of failure.</li>
+    <li><strong>Distributed:</strong> Complex management, data sync issues.</li>
+  </ul>
+
+  <h3>Comparison</h3>
+  <p>Distributed databases are better for global operations, centralized for small systems.</p>
+</section>
+
+<section>
+  <h2>Database Security</h2>
+  <h3>Introduction</h3>
+  <p>Database security ensures data is protected from unauthorized access or alteration.</p>
+
+  <h3>Challenges</h3>
+  <ul>
+    <li>Hackers</li>
+    <li>Insider threats</li>
+    <li>Data loss</li>
+  </ul>
+
+  <h3>Security Measures</h3>
+  <ul>
+    <li>Authentication and Authorization</li>
+    <li>Encryption</li>
+    <li>Backup and auditing</li>
+  </ul>
+
+  <h3>Role of DBA</h3>
+  <ul>
+    <li>Ensure security and backup</li>
+    <li>Optimize performance</li>
+    <li>Manage users and roles</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Practical Topics</h2>
+  <h3>DDL and DML</h3>
+  <ul>
+    <li><strong>DDL:</strong> CREATE, ALTER, DROP</li>
+    <li><strong>DML:</strong> SELECT, INSERT, UPDATE, DELETE</li>
+  </ul>
+
+  <h3>SQL Data Types</h3>
+  <ul>
+    <li>CHAR, VARCHAR</li>
+    <li>BINARY, VARBINARY</li>
+    <li>TINYBLOB, TINYTEXT, TEXT, LONGTEXT</li>
+    <li>ENUM, BIT</li>
+    <li>TINYINT, BOOLEAN, INTEGER</li>
+    <li>FLOAT, DOUBLE, DECIMAL</li>
+    <li>DATE, DATETIME</li>
+  </ul>
+</section>
+
+</body>
+</html>
